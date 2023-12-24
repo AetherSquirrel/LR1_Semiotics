@@ -1,0 +1,367 @@
+{
+  "1": {
+    "question": "Собираетесь ли Вы использовать телевизор как устройство вывода для игровой консоли?",
+    "type": "yes/no",
+    "parameter": "console"
+  },
+  "2": {
+    "question": "Важно ли для Вас наличие технологии FreeSync?",
+    "type": "yes/no",
+    "attribute": "FreeSync",
+    "next question": 3
+  },
+  "3": {
+    "question": "Важно ли для Вас наличие совместимости с PS5?",
+    "type": "yes/no",
+    "attribute": "PS5",
+    "next question": 4
+  },
+  "4": {
+    "question": "Важно ли для Вас наличие совместимости с XBOX X|S?",
+    "type": "yes/no",
+    "attribute": "XBOX",
+    "next question": 5
+  },
+  "5": {
+    "question": "Планируете ли вы воспроизводить на телевизоре что-то с помощью USB и/или HDMI?",
+    "type": "yes/no",
+    "parameter": "USB/HDMI"
+  },
+  "6": {
+    "question": "Важно ли для Вас наличие HDMI 2.1?",
+    "type": "yes/no",
+    "attribute": "HDMI2.1",
+    "next question": 7
+  },
+  "7": {
+    "question": "Важно ли для Вас наличие HDMI 2.0?",
+    "type": "yes/no",
+    "attribute": "HDMI2.0",
+    "next question": 8
+  },
+  "8": {
+    "question": "Важно ли Вам наличие USB-входов на телевизоре?",
+    "type": "single_choose",
+    "answers": {
+      "Нет": {
+        "USB": false
+      },
+      "Достаточно одного (1)": {
+        "USB": "Yes (1)"
+      },
+      "Нужно два": {
+        "USB": "Yes (2)"
+      }
+    },
+    "next question": 9
+  },
+  "9": {
+    "question": "Вас бы сильно беспокоило наличие встроенной рекламы?",
+    "type": "yes/no",
+    "attribute": "ads",
+    "next question": 10
+  },
+  "10": {
+    "question": "Планируете ли Вы крепить телевизор на стену?",
+    "type": "yes/no",
+    "parameter": "wall"
+  },
+  "11": {
+    "question": "Какого размера настенный подвес Вам нужен?",
+    "type": "multi_choose",
+    "answers": {
+      "100x100": {
+        "Wall mount": "100x100"
+      },
+      "100x200": {
+        "Wall mount": "100x200"
+      },
+      "200x100": {
+        "Wall mount": "200x100"
+      },
+      "200x200": {
+        "Wall mount": "200x200"
+      },
+      "200x300": {
+        "Wall mount": "200x300"
+      },
+      "300x200": {
+        "Wall mount": "300x200"
+      },
+      "300x300": {
+        "Wall mount": "300x300"
+      },
+      "300x400": {
+        "Wall mount": "300x400"
+      },
+      "400x200": {
+        "Wall mount": "400x200"
+      },
+      "400x300": {
+        "Wall mount": "400x300"
+      },
+      "400x400": {
+        "Wall mount": "400x400"
+      },
+      "600x400": {
+        "Wall mount": "600x400"
+      }
+    },
+    "next question": 12
+  },
+  "12": {
+    "question": "Важно ли для Вас наличие голосового управления телевизором?",
+    "type": "yes/no",
+    "parameter": "voice"
+  },
+  "13": {
+    "question": "Какие особенности голосового управления Вам необходимы?",
+    "type": "single_choose",
+    "answers": {
+      "Только поиск": {
+        "Voice control": "Content Search Only"
+      },
+      "Поиск и еще некоторые функции": {
+        "Voice control": "Search, Some Other Features"
+      },
+      "Множественные функции": {
+        "Voice control": "Many Features"
+      }
+    },
+    "next question": 14
+  },
+  "14": {
+    "question": "Важна ли Вам сверхвысокая частота обновления экрана?",
+    "type": "yes/no",
+    "parameter": "framerate"
+  },
+  "15": {
+    "question": "Какая частота обновления экрана для Вас комфортна?",
+    "type": "single_choose",
+    "answers": {
+      "60 Гц": {
+        "Native refresh rate": "60 Hz"
+      },
+      "120 Гц": {
+        "Native refresh rate": "120 Hz"
+      },
+      "144 Гц": {
+        "Native refresh rate": "144 Hz"
+      }
+    },
+    "next question": 17
+  },
+  "16": {
+    "question": "Какая частота обновления экрана для Вас комфортна?",
+    "type": "single_choose",
+    "answers": {
+      "120 Гц": {
+        "Native refresh rate": "120 Hz"
+      },
+      "144 Гц": {
+        "Native refresh rate": "144 Hz"
+      }
+    },
+    "next question": 17
+  },
+  "17": {
+    "question": "Нужен ли Вам изогнутый экран?",
+    "type": "yes/no",
+    "attribute": "Curved",
+    "next question": 18
+  },
+  "18": {
+    "question": "Важен ли для Вас тип пикселей в телевизоре?",
+    "type": "yes/no",
+    "parameter": "pixeltype"
+  },
+  "19": {
+    "question": "Какой тип пикселей для вас предпочтителен?",
+    "type": "single_choose",
+    "answers": {
+      "LED": {
+        "Pixel type": "LED"
+      },
+      "OLED": {
+        "Pixel type": "OLED"
+      }
+    },
+    "next question": 20
+  },
+  "20": {
+    "question": "Какой тип экранного покрытия для вас предпочтительнее?",
+    "type": "single_choose",
+    "answers": {
+      "Глянцевый": {
+        "Screen finish": "Glossy"
+      },
+      "Полуматовый": {
+        "Screen finish": "Semi-gloss"
+      }
+    },
+    "next question": 21
+  },
+  "21": {
+    "question": "Важно ли для Вас наличие технологии подавления мерцания?",
+    "type": "yes/no",
+    "attribute": "FlickerFree",
+    "next question": 22
+  },
+  "22": {
+    "question": "Важно ли для Вас сверхвысокое разрешение экрана?",
+    "type": "yes/no",
+    "parameter": "superhd"
+  },
+  "23": {
+    "question": "Какое разрешение экрана для Вас комфортно?",
+    "type": "single_choose",
+    "answers": {
+      "720p": {
+        "Resolution": "720p"
+      },
+      "1080p": {
+        "Resolution": "1080p"
+      },
+      "4k": {
+        "Resolution": "4k"
+      },
+      "8k": {
+        "Resolution": "8k"
+      }
+    },
+    "next question": 25
+  },
+  "24": {
+    "question": "Какое разрешение экрана для Вас комфортно?",
+    "type": "single_choose",
+    "answers": {
+      "4k": {
+        "Resolution": "4k"
+      },
+      "8k": {
+        "Resolution": "8k"
+      }
+    },
+    "next question": 25
+  },
+  "25": {
+    "question": "Важно ли для Вас наличие Wi-Fi?",
+    "type": "multi_choose",
+    "answers": {
+      "Нет": {
+        "Wi-Fi": false
+      },
+      "Да (только 2.4 ГЦ)": {
+        "Wi-Fi": "Yes (2.4 GHz)"
+      },
+      "Да (включая 5 ГЦ)": {
+        "Wi-Fi": "Yes (2.4 GHz, 5 GHz)"
+      }
+    },
+    "next question": 26
+  },
+  "26": {
+    "question": "Важен ли для Вас размер пульта?",
+    "type": "yes/no",
+    "parameter": "remotesize"
+  },
+  "27": {
+    "question": "Какого размера пульт должен быть у телевизора?",
+    "type": "multi_choose",
+    "answers": {
+      "Большой": {
+        "Remote size": "Large"
+      },
+      "Средний": {
+        "Remote size": "Medium"
+      },
+      "Маленький": {
+        "Remote size": "Small"
+      }
+    },
+    "next question": 28
+  },
+  "28": {
+    "question": "Важен ли для Вас год выпуска устройства?",
+    "type": "yes/no",
+    "parameter": "year"
+  },
+  "29": {
+    "question": "Какие года выпуска телевизоров для Вас предпочтительнее?",
+    "type": "multi_choose",
+    "answers": {
+      "2015": {
+        "Year": "2015"
+      },
+      "2016": {
+        "Year": "2016"
+      },
+      "2017": {
+        "Year": "2017"
+      },
+      "2018": {
+        "Year": "2018"
+      },
+      "2019": {
+        "Year": "2019"
+      },
+      "2020": {
+        "Year": "2020"
+      },
+      "2021": {
+        "Year": "2021"
+      },
+      "2022": {
+        "Year": "2022"
+      },
+      "2023": {
+        "Year": "2023"
+      }
+    },
+    "next question": 30
+  },
+  "30": {
+    "question": "Важен ли для Вас производитель устройства?",
+    "type": "yes/no",
+    "parameter": "brand"
+  },
+  "31": {
+    "question": "Какие производители телевизоров для Вас предпочтительнее?",
+    "type": "multi_choose",
+    "answers": {
+      "Amazon": {
+        "Brand": "Amazon "
+      },
+      "Element": {
+        "Brand": "Element "
+      },
+      "LG": {
+        "Brand": "LG "
+      },
+      "Roku": {
+        "Brand": "Roku "
+      },
+      "Samsung": {
+        "Brand": "Samsung "
+      },
+      "Sony": {
+        "Brand": "Sony "
+      },
+      "TCL": {
+        "Brand": "TCL "
+      },
+      "Toshiba": {
+        "Brand": "Toshiba "
+      },
+      "Vizio": {
+        "Brand": "Vizio "
+      }	
+    },
+    "next question": 32
+  },
+  "32": {
+    "question": "До какой максимальной цены вы рассматриваете товары?",
+    "type": "input",
+    "attribute": "price"
+  }
+}

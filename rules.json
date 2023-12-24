@@ -1,0 +1,129 @@
+{
+  "0": {
+    "attributes": {
+    },
+    "enable": [
+      1
+    ]
+  },
+  "1": {
+    "parameters": {
+      "console": true
+    },
+    "enable": 2
+  },
+  "2": {
+    "parameters": {
+      "console": false
+    },
+    "enable": 5
+  },
+  "3": {
+    "parameters": {
+      "USB/HDMI": true
+    },
+    "enable": 6
+  },
+  "4": {
+    "parameters": {
+      "USB/HDMI": false
+    },
+    "enable": 9
+  },
+  "5": {
+    "parameters": {
+      "wall": false
+    },
+    "enable": 12
+  },
+  "6": {
+    "parameters": {
+      "wall": true
+    },
+    "enable": 11
+  },
+  "7": {
+    "parameters": {
+      "voice": true
+    },
+    "enable": 13
+  },
+  "8": {
+    "parameters": {
+      "voice": false
+    },
+    "enable": 14
+  },
+  "9": {
+    "parameters": {
+      "framerate": false
+    },
+    "enable": 15
+  },
+  "10": {
+    "parameters": {
+      "framerate": true
+    },
+    "enable": 16
+  },
+  "11": {
+    "parameters": {
+      "pixeltype": false
+    },
+    "enable": 20
+  },
+  "12": {
+    "parameters": {
+      "pixeltype": true
+    },
+    "enable": 19
+  },
+  "13": {
+    "parameters": {
+      "superhd": false
+    },
+    "enable": 23
+  },
+  "14": {
+    "parameters": {
+      "superhd": true
+    },
+    "enable": 24
+  },
+  "15": {
+    "parameters": {
+      "remotesize": false
+    },
+    "enable": 28
+  },
+  "16": {
+    "parameters": {
+      "remotesize": true
+    },
+    "enable": 27
+  },
+  "17": {
+    "parameters": {
+      "year": false
+    },
+    "enable": 30
+  },
+  "18": {
+    "parameters": {
+      "year": true
+    },
+    "enable": 29
+  },
+  "19": {
+    "parameters": {
+      "brand": false
+    },
+    "enable": 32
+  },
+  "20": {
+    "parameters": {
+      "brand": true
+    },
+    "enable": 31
+  }
+}
